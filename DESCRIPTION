@@ -1,0 +1,17 @@
+Package: jsonExforUtils
+Type: Package
+Title: jsonExforUtils: Useful functions to process EXFOR fields
+Version: 0.1.0
+Authors@R: c(person("Georg", "Schnabel", role = c("aut", "cre"),
+		     email = "georg.schnabel@nucleardata.com"))
+Author: Georg Schnabel [aut, cre]
+Maintainer: Georg Schnabel <georg.schnabel@nucleardata.com>
+Description: This package provides functions to process
+    fields in EXFOR subentries, such as parsing reaction strings. 
+License: GPL (>=3)
+URL: https://www.r-project.org, https://github.com/gschnabel/jsonExforUtils
+BugReports: https://github.com/gschnabel/jsonExforUtils/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat
